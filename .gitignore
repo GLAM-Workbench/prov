@@ -5,3 +5,11 @@ requirements-tocheck.in
 dev-requirements.txt
 .idea
 .env
+*.csv
+*.sqlite
+draft-*.ipynb
+*.ndjson
+people
+Untitled*.ipynb
+.python-version
+dashboard.html

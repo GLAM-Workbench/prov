@@ -12,3 +12,7 @@ giturlparse
 requests
 python-dotenv
 jupyterlab-code-formatter
+PyGithub
+GitPython
+beautifulsoup4
+lxml

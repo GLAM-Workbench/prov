@@ -5,3 +5,9 @@ pandas
 requests
 altair
 jupyter-archive
+tqdm
+ipywidgets
+requests-cache
+tabulate
+nbconvert
+python-slugify
