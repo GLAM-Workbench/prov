@@ -9,8 +9,8 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2025-04-26T11:43:14+00:00",
-            "description": "Tools and resources for working with the Public Record Office Victoria's collection API.",
+            "datePublished": "2025-04-27T04:42:01+00:00",
+            "description": "A GLAM Workbench repository",
             "hasPart": [
                 {
                     "@id": "getting-started.ipynb"
@@ -103,6 +103,15 @@
             "version": "3.10.12"
         },
         {
+            "@id": "https://glam-workbench.net/prov/getting-started/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Getting started with the PROV API",
+            "url": "https://glam-workbench.net/prov/getting-started/"
+        },
+        {
             "@id": "getting-started.ipynb",
             "@type": [
                 "File",
@@ -119,6 +128,9 @@
             },
             "description": "This notebook attempts to document the basic functionality of the PROV API and provide an overview of the types of data available.",
             "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/prov/getting-started/"
+            },
             "name": "Getting started with the PROV API",
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
