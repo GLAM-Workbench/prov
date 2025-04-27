@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2025-04-27T04:42:01+00:00",
+            "datePublished": "2025-04-27",
             "description": "A GLAM Workbench repository",
             "hasPart": [
                 {
@@ -23,7 +23,8 @@
                 "@id": "https://glam-workbench.net/prov"
             },
             "name": "prov",
-            "url": "https://github.com/GLAM-Workbench/prov/"
+            "url": "https://github.com/GLAM-Workbench/prov/",
+            "version": "v1.0.0"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -37,6 +38,32 @@
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             }
+        },
+        {
+            "@id": "getting-started.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/prov/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook attempts to document the basic functionality of the PROV API and provide an overview of the types of data available.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/prov/getting-started/"
+            },
+            "name": "Getting started with the PROV API",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/prov/blob/master/getting-started.ipynb"
         },
         {
             "@id": "https://glam-workbench.net/prov",
@@ -112,30 +139,13 @@
             "url": "https://glam-workbench.net/prov/getting-started/"
         },
         {
-            "@id": "getting-started.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "codeRepository": "https://github.com/GLAM-Workbench/prov/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            "@id": "create_version_v1_0_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
             },
-            "description": "This notebook attempts to document the basic functionality of the PROV API and provide an overview of the types of data available.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/prov/getting-started/"
-            },
-            "name": "Getting started with the PROV API",
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/prov/blob/master/getting-started.ipynb"
+            "endDate": "2025-04-27",
+            "name": "Create version v1.0.0"
         }
     ]
 }
