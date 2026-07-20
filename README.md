@@ -1,6 +1,6 @@
 # prov
 
-CURRENT VERSION: v1.0.0
+CURRENT VERSION: v1.1.0
 
 Tools and resources for working with the Public Record Office Victoria's collection API.
 

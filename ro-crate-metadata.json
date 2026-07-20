@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2025-04-27",
+            "datePublished": "2026-07-20",
             "description": "A GLAM Workbench repository",
             "hasPart": [
                 {
@@ -24,7 +24,7 @@
             },
             "name": "prov",
             "url": "https://github.com/GLAM-Workbench/prov/",
-            "version": "v1.0.0"
+            "version": "1.1.0"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -146,6 +146,15 @@
             },
             "endDate": "2025-04-27",
             "name": "Create version v1.0.0"
+        },
+        {
+            "@id": "create_version_1_1_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2026-07-20",
+            "name": "Create version 1.1.0"
         }
     ]
 }
